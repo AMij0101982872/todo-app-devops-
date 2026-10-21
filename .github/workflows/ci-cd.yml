@@ -1,4 +1,4 @@
-.github/workflows/ci-cd.yml
+
 # Pipeline CI/CD — TP2 DevOps HESTIM
 # À chaque push sur main : tests, construction de l'image (amd64 + arm64), publication sur ghcr.io
 name: CI/CD
