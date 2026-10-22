@@ -7,6 +7,6 @@ test('it returns the HESTIM greeting', async () => {
 
     expect(res.send.mock.calls.length).toBe(1);
     expect(res.send.mock.calls[0][0]).toEqual({
-        greeting: 'Bienvenue à HESTIM !',
+        greeting: 'Bienvenue à HESTIM, promotion 2026 !',
     });
 });
